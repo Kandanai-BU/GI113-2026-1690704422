@@ -12,6 +12,10 @@ namespace Lab02
     {
         static void Main(string[] args)
         {
+            PartAPartB(args);
+        }
+        static void PartAPartB(string[] args)
+        {
             string bossName = "Kirin";
             char rank = 'S';
             int level = 7;
@@ -21,7 +25,7 @@ namespace Lab02
             double critMultiplier = 1.75;
             bool isBoss = true;
 
-            //Lab02 Part A
+            //Lab02 Part A result
             Console.WriteLine("===== BOSS STATUS: INITIAL =====");
             Console.WriteLine($"Name: {bossName}");
             Console.WriteLine($"Rank: {rank}");
@@ -42,8 +46,64 @@ namespace Lab02
             hpPercentage = currentHp * 100 / maxHp;
             Console.WriteLine($"HP Percentage: {hpPercentage}%");
 
-            //Lab02 Part B
+            //part B
+            string characterName = "Villager";
+            int hp = 10;
+            float movementSpeed = 10f;
+            double jumpForce = 0.5;
+            bool isHostile = false;
 
+            Console.WriteLine("===== PART B: MY CHARACTER STATS =====");
+            Console.WriteLine();
+            Console.WriteLine($"Name: {characterName}");
+            Console.WriteLine($"HP: {hp}");
+            Console.WriteLine($"Movement Speed: {movementSpeed}");
+            Console.WriteLine($"Jump Force: {jumpForce}");
+            if (isHostile){Console.WriteLine("Hostile");}
+            else{Console.WriteLine("Friendly");}
+            Console.WriteLine();
+
+            characterName = "Dog";
+            hp = 20;
+            movementSpeed = 25f;
+            jumpForce = 1.5;
+            isHostile = false;
+
+            Console.WriteLine($"Name: {characterName}");
+            Console.WriteLine($"HP: {hp}");
+            Console.WriteLine($"Movement Speed: {movementSpeed}");
+            Console.WriteLine($"Jump Force: {jumpForce}");
+            if (isHostile){Console.WriteLine("Hostile");}
+            else{Console.WriteLine("Friendly");}
+            Console.WriteLine();
+
+            characterName = "Zombie";
+            hp = 30;
+            movementSpeed = 8f;
+            jumpForce = 0.3;
+            isHostile = true;
+
+            Console.WriteLine($"Name: {characterName}");
+            Console.WriteLine($"HP: {hp}");
+            Console.WriteLine($"Movement Speed: {movementSpeed}");
+            Console.WriteLine($"Jump Force: {jumpForce}");
+            if (isHostile){Console.WriteLine("Hostile");}
+            else{Console.WriteLine("Friendly");}
+            Console.WriteLine();
+
+            characterName = "Dragon";
+            hp = 120;
+            movementSpeed = 45f;
+            char activationKey = 'K';
+            isHostile = true;
+
+            Console.WriteLine($"Name: {characterName}");
+            Console.WriteLine($"HP: {hp}");
+            Console.WriteLine($"Movement Speed: {movementSpeed}");
+            Console.WriteLine($"Activation Key: {activationKey}");
+            if (isHostile){Console.WriteLine("Hostile");}
+            else{Console.WriteLine("Friendly");}
+            Console.WriteLine();
         }
     }
 }
