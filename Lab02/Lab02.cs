@@ -59,8 +59,8 @@ namespace Lab02
             Console.WriteLine($"HP: {hp}");
             Console.WriteLine($"Movement Speed: {movementSpeed}");
             Console.WriteLine($"Jump Force: {jumpForce}");
-            if (isHostile){Console.WriteLine("Hostile");}
-            else{Console.WriteLine("Friendly");}
+            if (isHostile) { Console.WriteLine("Hostile"); }
+            else { Console.WriteLine("Friendly"); }
             Console.WriteLine();
 
             characterName = "Dog";
@@ -73,8 +73,8 @@ namespace Lab02
             Console.WriteLine($"HP: {hp}");
             Console.WriteLine($"Movement Speed: {movementSpeed}");
             Console.WriteLine($"Jump Force: {jumpForce}");
-            if (isHostile){Console.WriteLine("Hostile");}
-            else{Console.WriteLine("Friendly");}
+            if (isHostile) { Console.WriteLine("Hostile"); }
+            else { Console.WriteLine("Friendly"); }
             Console.WriteLine();
 
             characterName = "Zombie";
@@ -87,8 +87,8 @@ namespace Lab02
             Console.WriteLine($"HP: {hp}");
             Console.WriteLine($"Movement Speed: {movementSpeed}");
             Console.WriteLine($"Jump Force: {jumpForce}");
-            if (isHostile){Console.WriteLine("Hostile");}
-            else{Console.WriteLine("Friendly");}
+            if (isHostile) { Console.WriteLine("Hostile"); }
+            else { Console.WriteLine("Friendly"); }
             Console.WriteLine();
 
             characterName = "Dragon";
@@ -101,8 +101,8 @@ namespace Lab02
             Console.WriteLine($"HP: {hp}");
             Console.WriteLine($"Movement Speed: {movementSpeed}");
             Console.WriteLine($"Activation Key: {activationKey}");
-            if (isHostile){Console.WriteLine("Hostile");}
-            else{Console.WriteLine("Friendly");}
+            if (isHostile) { Console.WriteLine("Hostile"); }
+            else { Console.WriteLine("Friendly"); }
             Console.WriteLine();
         }
     }
