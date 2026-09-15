@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Lab05/Lab05.csproj" />
+  <Project Path="Lab05copy/Lab05copy.csproj" />
+</Solution>

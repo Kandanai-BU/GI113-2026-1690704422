@@ -5,7 +5,7 @@
  * No.        :
  * Course     : GI113 Computer Programming (GI)
  */
- namespace Assignment01
+namespace Assignment01
 {
     internal class Assignment01
     {
